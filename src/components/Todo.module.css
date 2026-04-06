@@ -1,0 +1,30 @@
+.main{
+  background-color: #9c9c9c;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.taskContainer{
+  padding: 10px;
+  width: 30%;
+  min-width: 300px;
+  max-width: 600px;
+  background-color: #b1abd0;
+  border-radius: 10px;
+  box-shadow: 1px 2px 8px 5px #cec7f1;
+}
+
+.displayTask{
+  background: linear-gradient(to top left, #a67edc, #875ebf);
+  border-radius: 10px;
+  box-shadow: 1px 2px 8px 5px #c9b7e1;
+}
+
+.tasks{
+  font-weight: bold;
+  font-size: 17px;
+}
